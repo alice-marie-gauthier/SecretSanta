@@ -14,4 +14,4 @@ Automated Python tool to manage Secret Santa gift assignments and send emails to
 2. Run the main script:
 
 ```bash
-python scripts/run_secret_santa.py
+python -m scripts/run_secret_santa
