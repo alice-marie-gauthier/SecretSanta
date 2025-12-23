@@ -11,7 +11,7 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
 SMTP_USER = os.getenv("SMTP_USER")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
-SENDER_NAME = "Secret Santa Organisatrice - Alice Gauthier"
+SENDER_NAME = "Secret Santa Organizer"
 EMAIL_SUBJECT = "🎄 Secret Santa Draw"
 
 # ==============================
