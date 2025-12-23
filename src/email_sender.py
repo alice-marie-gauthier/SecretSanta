@@ -34,9 +34,9 @@ def send_emails(participants, assignments):
 
             text = (
                 f"Ho ho ho, {giver['name']}! 🎅\n\n"
-                f"This is Santa Claus speaking for the Secret Santa at Pers-Jussy 🎄\n\n"
+                f"This is Santa Claus speaking for the Secret Santa 🎄\n\n"
                 f"The draw is done, and you will be giving a gift to: {receiver['name']} 🎁\n\n"
-                f"The suggested budget is around €20.\n"
+                f"The suggested budget is around 20CHF.\n"
                 f"Shh 🤫… keep it a secret!\n\n"
                 f"{SENDER_NAME}\n"
             )
@@ -46,10 +46,10 @@ def send_emails(participants, assignments):
             <html>
             <body style="font-family: Arial, sans-serif;">
                 <p><b>Ho ho ho, {giver['name']}! 🎅</b></p>
-                <p>This is Santa Claus speaking for the <b>Secret Santa at Pers-Jussy</b> 🎄</p>
+                <p>This is Santa Claus speaking for the <b>Secret Santa</b> 🎄</p>
                 <p>The draw is done, and you will be giving a gift to:<br/>
                    <b style="font-size: 1.2em;">{receiver['name']}</b> 🎁</p>
-                <p><b>Budget: around €20</b></p>
+                <p><b>Budget: around 20CHF</b></p>
                 <p>Shh 🤫… keep it a secret!</p>
                 <p>{SENDER_NAME}</p>
             </body>
